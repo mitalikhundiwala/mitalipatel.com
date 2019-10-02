@@ -1,0 +1,60 @@
+.summary {
+    
+    height: 100vh;
+    position: fixed;
+    width: 50%;
+    color: white;
+    background: url('../../images/me.jpeg') no-repeat;
+        background-size: cover;
+    background-position: center center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(135deg, rgba(0,0,0,0.66) 0%, rgba(0,0,0,0.33) 100%);
+    }
+
+    
+    .info {
+        position: relative;
+        z-index: 99;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 66%;
+        margin: 0 auto;
+        padding-top: 33%;
+        opacity: 0.66;
+        color: white;
+
+        a {
+            color: rgba($color: #ffffff, $alpha: 0.75);
+            display: inline-block;
+            margin: 0.5em;
+            font-size: 1.5rem;
+        }
+
+        .greeting {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+
+        .name {
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .headline {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.3rem;
+            font-style: italic;
+        }
+    }
+}
