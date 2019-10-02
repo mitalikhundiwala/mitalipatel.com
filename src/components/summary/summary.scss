@@ -1,0 +1,15 @@
+.summary {
+    background: url('../../images/me.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    width: 100vh;
+
+    .info {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
