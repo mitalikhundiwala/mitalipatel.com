@@ -10,10 +10,10 @@ const IndexPage = () => (
         <SEO title="" />
         <div className="">
             <div className="row no-gutters">
-                <div className="col-6">
+                <div className="">
                     <SummaryComponent></SummaryComponent>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6 offset-md-6">
                     <DetailsComponent></DetailsComponent>
                 </div>
             </div>

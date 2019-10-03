@@ -1,12 +1,17 @@
+@import '~bootstrap/scss/bootstrap-grid.scss';
+
 .summary {
-    
-    height: 100vh;
-    position: fixed;
-    width: 50%;
+    min-height: 100vh;
     color: white;
     background: url('../../images/me.jpeg') no-repeat;
-        background-size: cover;
+    background-size: cover;
     background-position: center center;
+    position: relative;
+
+    @include media-breakpoint-up(md) {
+        position: fixed;
+        width: 50%;
+    }
 
     &::before {
         content: '';
@@ -15,10 +20,9 @@
         left: 0;
         bottom: 0;
         right: 0;
-        background: linear-gradient(135deg, rgba(0,0,0,0.66) 0%, rgba(0,0,0,0.33) 100%);
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.33) 100%);
     }
 
-    
     .info {
         position: relative;
         z-index: 99;
@@ -43,12 +47,18 @@
         .greeting {
             h1 {
                 font-size: 3rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: normal;
             }
         }
 
         .name {
             text-transform: uppercase;
             white-space: nowrap;
+            font-style: normal;
+            font-weight: bold;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
         }
 
         .headline {
