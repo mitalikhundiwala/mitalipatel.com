@@ -19,6 +19,21 @@ const Detailsomponent = () => {
             </div>
             <div className="row section">
                 <div className="col-12 col-md-3 section-heading">
+                    <h2>Skills</h2>
+                </div>
+                <div className="col-12 col-md-9  section-body">
+                    <ul className="skills-list">
+                        <li>Interactive UIs using ES 2015+/TypeScript</li>
+                        <li>Backbone.js, Angular (v2), AngularJS, Bootstrap & jQuery</li>
+                        <li>SASS and CSS</li>
+                        <li>RESTful Services Development using PHP</li>
+                        <li>Back-end MVC Frameworks (i.e. CodeIgniter & FuelPHP)</li>
+                        <li>Experience with NoSQL storage engine - MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="row section">
+                <div className="col-12 col-md-3 section-heading">
                     <h2>Experience</h2>
                 </div>
                 <div className="col-12 col-md-9  section-body">
@@ -89,21 +104,7 @@ const Detailsomponent = () => {
                     </div>
                 </div>
             </div>
-            <div className="row section">
-                <div className="col-12 col-md-3 section-heading">
-                    <h2>Skills</h2>
-                </div>
-                <div className="col-12 col-md-9  section-body">
-                    <ul>
-                        <li>Interactive UIs using ES 2015+/TypeScript</li>
-                        <li>Backbone.js, Angular (v2), AngularJS, Bootstrap & jQuery</li>
-                        <li>SASS and CSS</li>
-                        <li>RESTful Services Development using PHP</li>
-                        <li>Back-end MVC Frameworks (i.e. CodeIgniter & FuelPHP)</li>
-                        <li>Experience with NoSQL storage engine - MongoDB</li>
-                    </ul>
-                </div>
-            </div>
+
             <div className="row section">
                 <div className="col-12 col-md-3 section-heading">
                     <h2>Education</h2>
