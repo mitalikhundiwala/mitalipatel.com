@@ -7,7 +7,7 @@ import DetailsComponent from '../components/details';
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="" />
+        <SEO />
         <div className="">
             <div className="row no-gutters">
                 <div className="">
