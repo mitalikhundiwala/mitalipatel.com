@@ -6,10 +6,10 @@ const Detailsomponent = () => {
     return (
         <div className="details">
             <div className="row section">
-                <div className="col-12 col-md-3 section-heading">
+                <div className="col-12 col-md-4 col-lg-3 section-heading">
                     <h2>Summary</h2>
                 </div>
-                <div className="col-12 col-md-9  section-body">
+                <div className="col-12 col-md-8 col-lg-9  section-body">
                     <p>
                         A <em>Front-end Developer</em>, who has worked on responsive and maintainable applications powered by Web Technologies using <em>ES 2015+/TypeScript</em> and <em>SASS</em> which works across platforms and devices as Single-page Web
                         Apps & Hybrid Mobile Apps with Cordova. My experience is in <em>Backbone.js</em>, <em>Angular</em>, <em>AngularJS</em>, <em>jQuery</em> and <em>Bootstrap</em> as Front-end frameworks. With my past in PHP-MySQL, I have a good
@@ -18,10 +18,10 @@ const Detailsomponent = () => {
                 </div>
             </div>
             <div className="row section">
-                <div className="col-12 col-md-3 section-heading">
+                <div className="col-12 col-md-4 col-lg-3 section-heading">
                     <h2>Skills</h2>
                 </div>
-                <div className="col-12 col-md-9  section-body">
+                <div className="col-12 col-md-8 col-lg-9 section-body">
                     <ul className="skills-list">
                         <li>Interactive UIs using ES 2015+/TypeScript</li>
                         <li>Backbone.js, Angular (v2), AngularJS, Bootstrap & jQuery</li>
@@ -33,10 +33,10 @@ const Detailsomponent = () => {
                 </div>
             </div>
             <div className="row section">
-                <div className="col-12 col-md-3 section-heading">
+                <div className="col-12 col-md-4 col-lg-3 section-heading">
                     <h2>Experience</h2>
                 </div>
-                <div className="col-12 col-md-9  section-body">
+                <div className="col-12 col-md-8 col-lg-9 section-body">
                     <div className="experience">
                         <h3>
                             <span className="company-name">Property Finder</span> as a <span className="position">Front-end Developer</span>
@@ -106,10 +106,10 @@ const Detailsomponent = () => {
             </div>
 
             <div className="row section">
-                <div className="col-12 col-md-3 section-heading">
+                <div className="col-12 col-md-4 col-lg-3 section-heading">
                     <h2>Education</h2>
                 </div>
-                <div className="col-12 col-md-9  section-body">
+                <div className="col-12 col-md-8 col-lg-9 section-body">
                     <h3>First Class in B.E. with Computer Science</h3>
                     <div>From Veer Narmad South Gujarat University, Surat, India.</div>
                     <div>Grade: First Class| Year of Passing: 2009</div>
