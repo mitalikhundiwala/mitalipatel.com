@@ -23,12 +23,20 @@ const Detailsomponent = () => {
                 </div>
                 <div className="col-12 col-md-8 col-lg-9 section-body">
                     <ul className="skills-list">
-                        <li>Interactive UIs using ES 2015+/TypeScript</li>
-                        <li>Backbone.js, Angular (v2), AngularJS, Bootstrap & jQuery</li>
+                        <li>
+                            Interactive UIs using with <em>ES 2015+/TypeScript</em>
+                        </li>
+                        <li>
+                            Getting Experience in <em>React &amp; Redux</em> with a Side Project
+                        </li>
+                        <li>Backbone.js, Angular (v2), Bootstrap, jQuery &amp; Cordova</li>
                         <li>SASS and CSS</li>
-                        <li>RESTful Services Development using PHP</li>
-                        <li>Back-end MVC Frameworks (i.e. CodeIgniter & FuelPHP)</li>
-                        <li>Experience with NoSQL storage engine - MongoDB</li>
+                        <li>
+                            <em>RESTful Services</em> Development using PHP in early career
+                        </li>
+                        <li>
+                            <em>Git</em> as Version Control System
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +103,7 @@ const Detailsomponent = () => {
                         <h3>
                             <span className="company-name">Avinashi Systems Pvt. Ltd</span> as a <span className="position">Software Engineer</span>
                         </h3>
-                        <span className="duration">September ’09 – March ‘12 (1 Year, 6 Months) - May ’12 – April ’13 (11 Months)</span>
+                        <span className="duration">September ’09 – March ‘12 (1 Year, 6 Months) // May ’12 – April ’13 (11 Months)</span>
 
                         <p>
                             Worked here as a <em>Lead PHP Developer</em>, handling server-side pie for some of the prominent products of Avinashi. I’ve worked on vast varieties of projects here - from back-end only services to the mix of UI and Server-side
