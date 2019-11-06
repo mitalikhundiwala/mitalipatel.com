@@ -18,11 +18,11 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `Mitali Patel`,
+                short_name: `Mitali Patel`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#663399`,
+                background_color: `#ffffff`,
+                theme_color: `#E27D60`,
                 display: `minimal-ui`,
             }
         },
