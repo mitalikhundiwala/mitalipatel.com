@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../firebase/firebase';
+
 import './summary.scss';
 
 const SummaryComponent = () => {
