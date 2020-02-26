@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../firebase/firebase';
+// import '../../firebase/firebase';
 
 import './summary.scss';
 
