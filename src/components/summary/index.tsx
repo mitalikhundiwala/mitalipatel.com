@@ -24,6 +24,9 @@ const SummaryComponent = () => {
                     <a href="https://github.com/mitalikhundiwala" target="_blank">
                         <i className="fa fa-github"></i>
                     </a>
+                    <a href="https://www.instagram.com/mitali.codes" target="_blank">
+                        <i className="fa fa-instagram"></i>
+                    </a>
                     <a href="https://tinyurl.com/uq5mt8u" target="_blank">
                         <i className="fa fa-download"></i>
                     </a>
